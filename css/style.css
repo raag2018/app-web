@@ -1,0 +1,25 @@
+:root{
+	--azul-oscuro: #19199d;
+	--azul-claro: #4fabe1;
+	--verde-claro: #58d30b;
+	--verde-oscuro: #399c02;
+	--rojo: #cd1c22;
+	--naranja: #fb9f00;
+	--amarillo: #ffc600;
+	--morado: #4633af;
+}
+.section-hero{
+	padding: 100px 0;
+	background: url(../images/section-hero/hero-background.jpg) center center no-repeat; 
+	background-size: cover;
+}
+.navbar-blue{
+	background-color: var(--morado);
+	transition: all 0.2s
+}
+.bg-azul{
+	background-color: var(--azul-oscuro);
+}
+.bg-azul:hover{
+	background-color: var(--azul-claro);
+}
